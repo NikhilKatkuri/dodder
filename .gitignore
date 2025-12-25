@@ -1,1 +1,3 @@
 .gitlite/
+node_modules/
+dist/
