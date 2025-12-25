@@ -1,4 +1,4 @@
-# Dodder 🪰
+# Dodder
 
 Dodder is a local AI software development agent that runs from your terminal on top of Ollama.  
 It collects your project requirements, filters out unsafe/malicious ideas, plans the tech stack, writes a step‑by‑step `dodder_guide.txt`, and then uses tools (filesystem + shell) to scaffold and iteratively refine your project from the CLI.
