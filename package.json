@@ -21,20 +21,23 @@
   "license": "MIT",
   "author": "Nikhil Katkuri (https://github.com/NikhilKatkuri)",
   "type": "commonjs",
-  "main": "safe/malicious ideas, plans the tech stack, writes a step‑by‑step `dodder_guide.txt`, and then uses tools (filesystem + shell) to scaffold and iteratively refine your project from the CLI.",
+  "main": "",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts",
+    "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@types/commander": "^2.12.0",
     "@types/node": "^25.0.3",
+    "nodemon": "^3.1.11",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "commander": "^14.0.2"
+    "commander": "^14.0.2",
+    "inquirer": "^13.1.0",
+    "ollama": "^0.6.3"
   }
 }
